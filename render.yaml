@@ -3,4 +3,4 @@ services:
     name: portfolio-tanu-2
     runtime: static
     buildCommand: ""
-    staticPublishPath: ./portfolio
+    staticPublishPath: ./
