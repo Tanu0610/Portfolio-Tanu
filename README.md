@@ -1,27 +1,28 @@
 
 # Tanuja D K — Portfolio Website
 
+**Live Demo:** [https://portfolio-tanu-2.onrender.com](https://portfolio-tanu-2.onrender.com)
+
 A single-page portfolio built with plain HTML, CSS and JavaScript (no build step required).
 
 ## Structure
 ```
-portfolio/
 ├── index.html          # All page content
 ├── css/style.css        # Styling (dark navy theme, amber/teal accents)
 ├── js/script.js         # Typewriter effect, heatmap, scroll reveal, counters
 ├── assets/
 │   ├── profile.png              # Profile photo
 │   └── Tanuja_D_K_Resume.pdf    # Downloadable résumé
+├── render.yaml          # Render blueprint deployment config
 └── README.md
 ```
 
 ## How to use
-1. Unzip the folder.
+1. Clone the repository.
 2. Open `index.html` directly in any browser — or,
 3. For the best experience (fonts load correctly, relative paths work), serve it locally:
    ```bash
-   cd portfolio
-   python3 -m http.server 8000
+   python -m http.server 8000
    ```
    Then visit `http://localhost:8000`.
 
