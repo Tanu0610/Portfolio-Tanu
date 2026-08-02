@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: portfolio-tanu-2
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./portfolio
